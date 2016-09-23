@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <title>Shibu Cafe</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <meta name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" media="(min-width: 769px)" href="css/style_pc.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/style.css">
   </head>
   <body>
     <header>
       <h1>Shibu cage</h1>
-      <img src="images/interior_001.jpg" alt="shibu cafe" />
+      <!--<img src="images/interior_001.jpg" alt="shibu cafe" />-->
       <!--
       <div class="btn">
         <a href="#">more</a>
@@ -18,11 +20,9 @@
     </header>
     <nav>
       <button id="open">&#926;</button>
-<!--
       <div class="logo">
-        <a href="#"><img src="images/home.png" alt="logo" /></a>
+        <a href="#"><img src="images/point.png" alt="logo" /></a>
       </div>
-<-->
       <div id="drawer">
         <ul>
           <li><a href="#about">ABOUT</a></li>
@@ -59,7 +59,7 @@
           </p>
         </div>
         <div id="menu3">
-          <img src="images/espresso-compana _002.jpg" alt="エスプレッソコンバナ" class="close"/>
+          <img src="images/espresso-compana_002.jpg" alt="エスプレッソコンバナ" class="close"/>
           <p>あああああああああああああああああああ。</p>
         </div>
         <div id="menu4">
@@ -89,7 +89,7 @@
           </section>
           <section>
             <h3>エスプレッソコンバナ ¥600</h3>
-            <figure data-tutor="menu3"><img src="images/espresso-compana _002.jpg" alt="エスプレッソコンバナ" class="close"/></figure>
+            <figure data-tutor="menu3"><img src="images/espresso-compana_002.jpg" alt="エスプレッソコンバナ" class="close"/></figure>
           </section>
           <section class="right">
             <h3>フルーツケーキ ¥450</h3>
@@ -112,7 +112,9 @@
           <li><img src="images/icon2.png" alt="" />000-00-0000</li>
           <li><img src="images/icon3.png" alt="" />7:30-24:00</li>
         </ul>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.767291790507!2d139.69955301475383!3d35.65810463884833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1472556687091" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="accessmap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.767291790507!2d139.69955301475383!3d35.65810463884833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1472556687091" width="600" height="450"></iframe>
+      </div>
       </aside>
       <section id="contactUs">
         <h2>CONTACT</h2>
@@ -146,22 +148,24 @@
       <div class="logo">
         <a href="#"><img src="images/home.png" alt="logo" /></a>
       </div>-->
-      <section id="f_nav">
-        <ul>
-          <li><a href="#">TOP</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">MENU</a></li>
-          <li><a href="#">ACCESS</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </section>
-      <section id="f_access">
-        <ul class="t_access">
-          <li><img src="images/icon1.png" alt="" />150-0043 東京都渋谷区道玄坂 </br>&ensp;&ensp;&ensp;xxx-xx Cafe</li>
-          <li><img src="images/icon2.png" alt="" />000-00-0000</li>
-          <li><img src="images/icon3.png" alt="" />7:30-24:00</li>
-        </ul>
-      </section>
+      <div class="f_inner">
+        <section id="f_nav">
+          <ul>
+            <li><a href="#">TOP</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">ACCESS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </section>
+        <section id="f_access">
+          <ul class="t_access">
+            <li><img src="images/icon1.png" alt="" />150-0043 東京都渋谷区道玄坂 <br>&ensp;&ensp;&ensp;xxx-xx Cafe</li>
+            <li><img src="images/icon2.png" alt="" />000-00-0000</li>
+            <li><img src="images/icon3.png" alt="" />7:30-24:00</li>
+          </ul>
+        </section>
+      </div>
       <small>&copy;2009 - 2015 schoo</small>
     </footer>
     <div id="gototop"><a href="#top">^</a></div>
